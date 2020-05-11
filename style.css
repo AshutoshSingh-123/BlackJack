@@ -1,0 +1,77 @@
+.main {
+  width: 60%;
+  margin: 0 auto;
+  border: 2px solid black;
+  position: relative;
+  background: teal;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.main-one {
+  text-align: center;
+  border: 1px solid black;
+  /* width: 100px; */
+  margin: 5px;
+  width: 98%;
+  text-transform: uppercase;
+  color: teal;
+  background: white;
+  box-sizing: border-box;
+}
+#h11 {
+  text-transform: capitalize;
+  font-size: 20px;
+  /* margin: 0; */
+}
+.main-two {
+  /* display: inline-block; */
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid black;
+  width: 49%;
+  box-sizing: border-box;
+  margin-left: 5px;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.main-three {
+  /* display: inline-block; */
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid black;
+  width: 49%;
+  height: 350px;
+  box-sizing: border-box;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.main-four {
+  background-color: white;
+  /* width: 98%; */
+  margin: 10px;
+  padding: 10px;
+}
+.main-five {
+  width: 98%;
+  border: 1px solid black;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 5px;
+  padding: 5px;
+}
+
+th {
+  border: 1px solid black;
+}
+td {
+  border: 1px solid black;
+  height: 20px;
+}
