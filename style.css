@@ -1,6 +1,10 @@
+body{
+  /* background-color: blue; */
+  /* background-image: url(./Images/spade-A.png); */
+}
 .main {
   width: 60%;
-  margin: 0 auto;
+  margin: 100px auto;
   border: 2px solid black;
   position: relative;
   background: teal;
@@ -31,6 +35,7 @@
   padding: 0px;
   border: 1px solid black;
   width: 49%;
+  height: 150px;
   box-sizing: border-box;
   margin-left: 5px;
   background-color: white;
@@ -38,13 +43,22 @@
   flex-wrap: wrap;
   justify-content: space-around;
 }
+.imgCards{
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; */
+  /* width: fit-content; */
+  width: 70px;
+  height: 100px;
+  margin-top: 25px;
+}
 .main-three {
   /* display: inline-block; */
   margin: 0px;
   padding: 0px;
   border: 1px solid black;
   width: 49%;
-  height: 350px;
+  height: 150px;
   box-sizing: border-box;
   background-color: white;
   display: flex;
@@ -75,3 +89,13 @@ td {
   border: 1px solid black;
   height: 20px;
 }
+#d11{
+  width: 49%;
+  height: 30px;
+  text-align: center;
+  border:1px solid;
+  margin-left: 4px;
+  background: white;
+}
+/*  */
+

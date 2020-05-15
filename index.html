@@ -9,22 +9,33 @@
      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
+    <audio src="./Ta Da-SoundBible.com-1884170640.mp3"></audio>
     <div class="main">
       <div class="main-one">
         <h1>blackjack</h1>
         <h1 id="h11">Let's Play <style te></style></h1>
       </div>
 
-      <div class="main-two">
+      <!-- you and Dealer -->
+<div id="d11">
+  <p id="p1">You:0</p>
+</div>
+<div id="d11">
+  <p id="p2">Dealer:0</p>
+</div>
+      <div
+     " class="main-two" id="d12">
+     
         
       </div>
-      <div class="main-three">
+      
+      <div class="main-three" id="d13">
         
       </div>
       <div class="main-four">
-<button id="b1" class="btn btn-primary">Hit</button>
-<button id="b2" class="btn btn-warning">Stand</button>
-<button id="b3" class="btn btn-danger">Deal</button>
+<button id="b1" class="btn btn-primary" onclick="mycards()" >Hit</button>
+<button id="b2" class="btn btn-warning" onclick="dealer()">Stand</button>
+<button id="b3" class="btn btn-danger" onclick="reset()">Deal</button>
       </div>
 
       <!-- for counting scores -->
@@ -36,11 +47,12 @@
         <th>Draws</th>
         </tr>
         <tr>
-         <td></td>
-         <td></td>
-         <td></td>
+         <td id="td1"></td>
+         <td id="td2"></td>
+         <td id="td3"></td>
         </tr>
        </table>
+       
       </div>
     </div>
 
